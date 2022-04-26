@@ -1,2 +1,14 @@
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sav98aman/test.git
+git push -u origin main
+
+git remote add origin https://github.com/sav98aman/test.git
+git branch -M main
+git push -u origin main
+
 hii i am aman kumar
 i am basically belong from bihar
